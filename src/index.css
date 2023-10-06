@@ -1,0 +1,11 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.title-th {
+  @apply px-6 bg-gray-50  align-middle border border-solid border-gray-100 py-3 text-xl uppercase border-l-0 border-r-0 whitespace-nowrap font-semibold text-center;
+}
+
+.data-th {
+  @apply border-t-0 px-6 align-middle border-l-0 border-r-0  whitespace-nowrap p-4 text-center;
+}
